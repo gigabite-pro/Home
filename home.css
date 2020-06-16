@@ -212,10 +212,14 @@ h1{
   }
 
   .logo_content ul p{
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: normal;
   }
 
+  .logo_content h1{
+    font-size: 2rem;
+  }
+  
   #about{
     height: fit-content;
   }
