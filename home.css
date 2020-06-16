@@ -34,7 +34,7 @@ ul li{
 
 .log{
   border: 1px solid black;
-  border-radius: 10%;
+  border-radius: 10px;
   font-weight: normal;
   transition-duration: 0.3s;
 }
@@ -59,10 +59,29 @@ h1{
   width: 90%;
 }
 
-.logo_content{
+.logo_content h1{
+  margin-top: 2rem;
   text-align: center;
-  font-size: 1.7rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 4rem;
+  letter-spacing: 2px;
   color: white;
+}
+
+.logo_content ul li{
+  list-style: none;
+}
+
+.logo_content ul{
+  margin-top: 3rem;
+}
+
+.logo_content ul p{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .head{
@@ -78,17 +97,17 @@ h1{
 .about_head{
   color: coral;
   font-size: 2rem;
-  margin-top: 3rem;
+  margin-top: -3rem;
 }
 
 .about_content{
-  margin-top: 5rem;
+  margin-top: 3rem;
   font-size: 1.7rem;
   color: white;
 }
 
 #about{
-  height: 45rem;
+  height: 30rem;
 }
 
 .logo{
@@ -188,8 +207,21 @@ h1{
     color: white;
   }
 
+  .logo_content{
+    margin-top: -5rem;
+  }
+
+  .logo_content ul p{
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
   #about{
     height: fit-content;
+  }
+
+  .about_head{
+    margin-top: 0rem;
   }
 
   .logo{
