@@ -67,8 +67,8 @@ ul li a:hover{
 }
 
 iframe{
-  width: 700px;
-  height: 400px;
+  width: 50rem;
+  height: 30rem;
 }
 
 .how-to li{
@@ -200,7 +200,8 @@ hr{
   }
 
   iframe{
-    width: 350px;
+    width: 20rem;
+    height: 25rem;
   }
   
 }
